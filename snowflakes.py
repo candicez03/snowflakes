@@ -1,10 +1,16 @@
 import pygame,sys,random
 
+# [snowflakes]
+# version: 2.0
+# author: Candice Zhang
+# date: 2017.8.13
+
 SNOW_NUMBER       = 500
 SNOW_SIZE_MAX     = 15
 SNOW_BEGIN_Y      = -50
 SNOW_SPEED_MAX    = 3
 SCREEN_W,SCREEN_H = 1024,768
+
 class Snow(object):
     def __init__(self,d):
         self.r = random.randint(1,SNOW_SIZE_MAX)
